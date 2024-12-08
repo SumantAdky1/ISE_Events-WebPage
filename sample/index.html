@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>PDACEK</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @media (max-width: 1190px) {
+            .header h1 {
+                font-size: 4vw;
+                width: 100%;
+                line-height: 10vh;
+            }
+
+            .header span {
+                font-size: 2vw;
+            }
+
+        }
+    </style>
 </head>
+
 <body>
     <nav class="header">
         <img width="200px" src="image.png" alt="">
-        <h1>PDA College of Enginnering<br>
-        <span>Autonomous Institue Affiliated to VTU Belagavi - Approved by AICTE New Delhi</span></h1>
+        <h1><b>PDA College of Enginnering</b><br>
+            <span>Autonomous Institue Affiliated to VTU Belagavi - Approved by AICTE New Delhi</span>
+        </h1>
     </nav>
     <marquee class="deptmar" direction="left" scrollamount="12">
         <div class="section1">
@@ -20,5 +40,50 @@
     <div class="section2">
         <img class="section2-img" src="https://pdacek.ac.in/assets/images/slider/pda1.jpg" alt="">
     </div>
+    <hr style="border: 2px solid rgb(0, 0, 0);">
+    <div class="section3">
+        <marquee class="deptmar" direction="left" scrollamount="12">
+            <div class="section3">
+                <h2 class="event" align="center">EVENTS</h2>
+            </div>
+        </marquee>
+        <br>
+        <br>
+        <div class="container text-center">
+            <span class="cultural">
+                <img src="https://th.bing.com/th/id/OIP.qbqB4QjX7Z5qycTMNCCmwQHaEH?w=298&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                class="rounded" alt="...">
+                <div class="text-light fs-1 fw-bold">Cultural</div>
+            </span>
+            <span class="sports">
+                <img class="sports-img" src="https://kalasalingam.ac.in/wp-content/uploads/2021/06/IMG_1618-1-scaled.jpg"
+                class="rounded" alt="...">
+                <div class="text-light fs-1 fw-bold">Sports</div>
+            </span>
+            <span class="quiz">
+                <img class="sports-img" src="https://2.bp.blogspot.com/-hq9_OmG0xzI/UwZy7RPpMNI/AAAAAAAA320/T_Qj3h9OxjY/s1600/MAGADH+MAHILA+COLLEGE+ME+MATHMETECS+DEPARTMENT+DAWARA+QUIZ+COMPITTION.jpg"
+                class="rounded" alt="...">
+                <div class="text-light fs-1 fw-bold">Quiz</div>
+            </span>
+        </div><br>
+        <div class="container text-center">
+            <span class="debate">
+                <img class="sports-img" src="https://th.bing.com/th/id/OIP.NDcUkrBejsuI0dDJKDkLTAHaEQ?w=275&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                class="rounded" alt="...">
+                <div class="text-light fs-1 fw-bold">Debate</div>
+            </span>
+            <span class="freshers">
+                <img class="sports-img" src="https://th.bing.com/th/id/OIP.g1nEHJ4prlQUvlUatFxotwHaFd?w=250&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                class="rounded" alt="...">
+                <div class="text-light fs-1 fw-bold">Fresher's</div>
+            </span>
+            <span class="sendoff">
+                <img class="sports-img" src="https://i.ytimg.com/vi/GB11GKz2zxE/maxresdefault.jpg"
+                class="rounded" alt="...">
+                <div class="text-light fs-1 fw-bold">Send-off</div>
+            </span>
+        </div>
+    </div>
 </body>
+
 </html>
